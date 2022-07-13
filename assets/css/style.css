@@ -95,10 +95,6 @@ html {
 }
 
 /* Main */
-#main {
-
-}
-
 #nav .home-ico {
     display: none;
 }
@@ -235,10 +231,6 @@ html {
     font-size: 15px;
     margin-top: 18px;
     text-shadow: 0 0 2px #000;
-}
-
-#content {
-
 }
 
 #content .content-section {
