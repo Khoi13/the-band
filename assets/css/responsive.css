@@ -1,0 +1,161 @@
+/* PC */
+@media (min-width:64em) {
+
+}
+
+
+
+/* Tablet UI */
+@media (max-width: 63.9375em) and (min-width: 46.25em) {
+    #content .content-section {
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #content .member-img {
+        width: 66.96958069%;
+    }
+
+
+    .modal-container{ 
+    max-width: calc(100% - 64px);
+    }
+}
+
+/* Tablet & Mobile UI */
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    #header {
+        height: 48.5px; 
+    }
+
+    #header .search-icon,
+    #header .menu-icon {
+        line-height: 48.5px;
+    }
+
+    #nav li a {
+        padding: 1.25px 24px;
+    }
+
+    #nav .subnav a {
+        padding: 5px 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+} 
+
+/* Mobile UI */
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #content .content-section {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: inline-block;
+    }
+
+    
+    #nav .subnav a {
+        padding: 1px 42px;
+    }
+
+
+    #nav {
+        display: block;
+    }
+    
+    
+    
+    #nav > li {
+        display: block;
+    }
+    
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    
+    #nav .home-ico {
+        display:inline-block;
+    }
+    
+    #nav .home-text {
+        display: none;
+    }
+    
+    #nav .home-ico a {
+        padding-right: 28px;
+    }
+    
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 42px;
+    }
+
+    #slider .text-heading,
+    #slider .text-description {
+        display: none;
+    }
+    
+    #content .members-list {
+        margin-top: 31px;
+    }
+    
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+}
